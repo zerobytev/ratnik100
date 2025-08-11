@@ -1877,9 +1877,9 @@ local phobia = {
 			local servs = {}
 
 			local group = {
-				a = pui.group("AA", "Anti-aimbot angles"),
+				a = pui.group("AA", "anti-aimbot angles"),
 				f = pui.group("AA", "Other"),
-				o = pui.group("AA", "Fake lag"),
+				o = pui.group("AA", "Fake Lag"),
 			}
 
 			for k, v in pairs(self.servers.gen) do
@@ -3669,3 +3669,4 @@ end
 cvar.con_filter_enable:set_int(1)
 cvar.con_filter_text:set_string("IrWL5106TZZKNFPz4P4Gl3pSN?J370f5hi373ZjPg%VOVh6lN")
 client.exec("con_filter_enable 1")
+
